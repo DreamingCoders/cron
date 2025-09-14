@@ -1,4 +1,5 @@
-# Universal Sysadmin Bootstrapper - Cron & Automation
+# UniVersal Shell
+A Sysadmin Wrapper Bootstrapper w/ Cron & Automation
 ## Use Case
 One being, **automated server maintenance** tasks. Ideal for servers running webapps, gameservers(launching gs automatically), or bpy/go rendering pipelines. It automates:
 - Let's Encrypt cert renewals - System updates & upgrades (full upgrades, autoremoves, & autocleans) - Apache/Nginx restarts(~/mo) - Disk & backup cleanup
