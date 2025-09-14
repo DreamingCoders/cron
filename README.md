@@ -1,8 +1,8 @@
 # Universal Sysadmin Bootstrapper - Cron & Automation
 ## Use Case
-This script snippet is designed to manage **automated server maintenance** tasks. It is ideal for servers running web applications, game servers, or Blender rendering pipelines. It automates:
-- Let's Encrypt certificate renewals - System updates and upgrades (full upgrades, autoremoves, and autocleans) - Monthly Apache/Nginx restarts - Disk and backup cleanup
-- Optional daily reboots - Automatic detection and update of language-specific projects (Node.js, Python, Go, PHP) - Launching game servers automatically
+One being, **automated server maintenance** tasks. Ideal for servers running webapps, gameservers(launching gs automatically), or bpy/go rendering pipelines. It automates:
+- Let's Encrypt cert renewals - System updates & upgrades (full upgrades, autoremoves, & autocleans) - Apache/Nginx restarts(~/mo) - Disk & backup cleanup
+- Optional daily reboots - Automatic detection and update of language-specific projects (Node.js, Python, Go, PHP)
 By using this, sysadmins or end-users have **up-to-date, secure, and optimized**, crons without intervening. Below you can see what the server does automatically in case of breaches, down infra etc.
 ## Example
 ```sh
